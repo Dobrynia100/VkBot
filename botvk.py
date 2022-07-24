@@ -39,7 +39,7 @@ def checkat(chat,chek,name,num):
         attachment3 = getpost(name, num)
         write_repost(chat, "", attachment3)
         return 1
-    else:print("совпал")
+    else: print("совпал")
 
 
 
