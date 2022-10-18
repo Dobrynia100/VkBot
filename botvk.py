@@ -127,7 +127,7 @@ for event in longpoll.listen():
          col=1
      if col==1:
          col=reseived_message
-     if  reseived_message == "член":
+     if  reseived_message == "чач":
          print("пост1 отправлен в ", chat)
          write_message(chat,"последние 5 постов")
          for i in range(col):
